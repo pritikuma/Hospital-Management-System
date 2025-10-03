@@ -20,14 +20,14 @@ A full-stack web application with **dual interfaces** for patients and admin.
 
 ---
 
----
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-```bash
+bash
 git clone https://github.com/your-username/hospital-management-system.git
 cd hospital-management-system
+### 2️⃣ Setup Backend (Node.js + Express + MongoDB)
+
 # Go to backend folder
 cd backend
 
@@ -42,7 +42,7 @@ JWT_SECRET=your-secret-key" > .env
 
 # Start the backend server
 npm start
-
+### 3️⃣ Setup Frontend (React.js)
 
 # Open new terminal and go to frontend folder
 cd frontend
@@ -52,5 +52,3 @@ npm install
 
 # Start React app
 npm start
-
-
