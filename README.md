@@ -44,5 +44,13 @@ JWT_SECRET=your-secret-key" > .env
 npm start
 
 
-## 📂 Project Structure
+# Open new terminal and go to frontend folder
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start React app
+npm start
+
 
