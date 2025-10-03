@@ -20,5 +20,29 @@ A full-stack web application with **dual interfaces** for patients and admin.
 
 ---
 
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/hospital-management-system.git
+cd hospital-management-system
+# Go to backend folder
+cd backend
+
+# Install dependencies
+npm install
+
+# Create .env file and add the following variables
+# (edit with your own values)
+echo "PORT=5000
+MONGO_URI=your-mongodb-connection-string
+JWT_SECRET=your-secret-key" > .env
+
+# Start the backend server
+npm start
+
+
 ## 📂 Project Structure
 
